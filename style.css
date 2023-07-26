@@ -60,7 +60,7 @@ header{
 .banner{
     width: 100%;
     height: 70vh;
-    background-image:linear-gradient(to right,black 40%, transparent 58%), url('../img/banner.jpg');
+    background-image:linear-gradient(to right,black 40%, transparent 58%), url('./img/banner.jpg');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
