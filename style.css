@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+      font-family: 'Open sans',sans-serif;
+}
+header{
+    width: 100%;
+    background-color: #0f171e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 65px;
+    height: 85px;
+}
+.log{
+    width: 108px;
+    height: auto;
+}
+
+.glob{
+    color: white;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.header-right .language{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    font-size: 15px;
+}
+.header-right .language i{
+    color: white;
+}
+.header-right .language span{
+    color: white;
+    padding-left: 8px;
+}
+.sign{
+    color: white;
+    text-decoration: none;
+}
+.header-right .language i{
+    color: #aeabab;
+    font-size: 16px;
+}
+
+.banner{
+    width: 100%;
+    height: 70vh;
+    background-image:linear-gradient(to right,black 40%, transparent 58%), url('../img/banner.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+.banner .banner-txt{
+    width: 44%;
+    color: white;
+    padding-left: 80px;
+    padding-top: 35px;
+}
+.banner .banner-txt h1{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.banner .banner-txt p{
+    font-size: 20px;
+    color: #e6e3e3;
+    padding-bottom: 49px;
+}
+.banner .banner-txt button{ 
+    background-color: #0f79Af;
+    display: block;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    width: 56%;
+    cursor: pointer;
+    border: 5px;
+    border-radius: 5px;
+}
+.banner .banner-txt .or{
+    display: block;
+    position: relative;
+    width: 56%;
+    text-align: center;
+    color: #d6d2d2;
+    margin: 15px 0;
+}
+.banner .banner-txt .or::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 45%;
+    height: 1px;
+    background-color: white;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+    top: 0;
+}
+.banner .banner-txt .or::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 45%;
+    height: 1px;
+    background-color: white;
+    margin: auto;
+   
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+}
+.content .items{
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+}
+.content .items .img{
+    width: 100%;
+    padding: 10px;
+}
+.content .items .img img{
+    width: 100%;
+}
+.content .items h3{
+    font-size: 32px;
+    color: #333;
+}
+.content .items p{
+    color: #333;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: lighter;
+
+}
+.content2{
+    background-color: black;
+    width: 100%;
+    height: 453px;
+   display: flex;
+   justify-content: space-between;
+    color: white;
+   
+}
+.content2 .text2 h2{
+    padding-right: 112px;
+    padding-top: 98px;
+    font-size: 35px;
+}
+.content2 .text2 p{
+    padding-left: 45px;
+    padding-top: 50px;
+    line-height: 1.8;
+}
+ 
+.image{
+  
+    height: 452px;
+    width: 93%;
+   
+   
+
+}
+.content2 button{
+    background-color: #0f79Af;
+    
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    width: 41%;
+    cursor: pointer;
+    border: 5px;
+    border-radius: 5px;
+    margin-left: 53px;
+    margin-top: 40px;
+}
+.content3{
+    background-color: black;
+    height: 406px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.text3{
+    color: white;
+   padding-left: 45px;
+   padding-top: 87px;
+}
+.text3 p{
+    padding-top: 39px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.text3 button{
+      background-color: #0f79Af;
+    
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    width: 41%;
+    cursor: pointer;
+    border: 5px;
+    border-radius: 5px;
+    margin-top: 50px;  
+}
+.image2{
+    height: 407px;
+    width: auto;
+}
+footer{
+    width: 100%;
+    background-color: #222222;
+    padding: 25px 0;
+}
+.lot{
+    width: 24%;
+}
+.footer{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.footer a{
+    color: lightseagreen;
+    font-size: 14px;
+    padding: 0 7px;
+    text-decoration: none;
+}
+.footer small{
+    display: block;
+    color: grey;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
